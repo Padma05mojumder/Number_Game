@@ -1,0 +1,131 @@
+p
+{
+    color:rgb(172, 205, 234);
+    font-size: 80px;
+    text-shadow:2px 2px 0.2em blue,-2px -2px 0.2em blue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position:relative;
+    top:40px;
+    animation-name: glow ;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in;
+}
+@keyframes glow
+{
+    0%{ text-shadow:2px 2px 0.3em blue,-2px -2px 0.3em blue;}
+    20%{ text-shadow:3px 3px 0.4em blue,-3px -3px 0.4em blue;}
+    40%{ text-shadow:4px 4px 0.5em blue,-4px -4px 0.5em blue;}
+    60%{ text-shadow:3px 3px 0.6em blue,-3px -3px 0.6em blue;}
+    80%{ text-shadow:2px 2px 0.7em blue,-2px -2px 0.7em blue;}
+}
+body{
+    background-image: url("number-background.avif");
+    background-size:cover;
+}
+.class{
+    height: 60px;
+    width:200px;
+    border-style:solid;
+    border-color:purple;
+    box-shadow:  3px 3px 0.9em purple,-3px -3px 0.9em purple;
+    background-color:rgb(67, 5, 75);
+    border-radius: 25px;
+    position: relative;
+    left:650px;
+
+}
+#div1:active{
+    background-color:rgb(170, 23, 190);
+}
+#div1:hover{
+    font-size: 55px;
+}
+#div12:active{
+    background-color:rgb(170, 23, 190);
+}
+#div2:hover{
+    font-size: 55px;
+}
+#div3:active{
+    background-color:rgb(170, 23, 190);
+}
+#div3:hover{
+    font-size: 55px;
+}
+#head1
+{
+    color:white;
+    font-size: 30px;
+    position: relative;
+    left:67px;
+    bottom: 15px;
+}
+#head2
+{
+    color:white;
+    font-size: 30px;
+    position: relative;
+    left:50px;
+    bottom: 15px;
+}
+#head3
+{
+    color:white;
+    font-size: 30px;
+    position: relative;
+    left:65px;
+    bottom: 15px;
+}
+#animate1{
+    z-index:-1;
+    height:550px;
+    width:550px;
+    border-style: solid;
+    border-color: aqua;
+    box-shadow:3px 3px 0.5em aqua,-3px -3px 0.5em aqua;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 90%;
+    position:relative;
+    left:500px;
+    bottom:400px;
+    animation: rotate1 3s linear infinite normal;
+
+}
+@keyframes rotate1{
+    0%{transform: rotate(0deg);}
+    14%{transform: rotate(60deg);}
+    30%{transform: rotate(120deg);}
+    46%{transform: rotate(180deg);}
+    64%{transform: rotate(240deg);}
+    82%{transform: rotate(300deg);}
+    100%{transform: rotate(360deg);}
+}
+#animate2{
+    z-index:-2;
+    height:550px;
+    width:550px;
+    border-style: solid;
+    border-color: aquamarine;
+    box-shadow:3px 3px 0.5em  aquamarine,-3px -3px 0.5em  aquamarine;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 80%;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 70%;
+    position:relative;
+    left:500px;
+    bottom:950px;
+     animation: rotate1 3s linear infinite reverse;
+
+}
+.link
+{
+    text-decoration: none;
+}
+
+
+
